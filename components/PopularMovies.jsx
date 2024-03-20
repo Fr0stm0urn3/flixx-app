@@ -6,8 +6,6 @@ import noImage from "@/assets/images/no-image (1).jpg"
 const PopularMovies = async () => {
   const { results } = await fetchAPIData("/movie/popular")
 
-  console.log(results)
-
   return (
     <section className="container">
       <h2>Popular Movies</h2>
