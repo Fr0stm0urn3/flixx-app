@@ -1,4 +1,5 @@
 import "@/assets/styles/globals.css"
+import Navbar from "@/components/Navbar"
 
 export const metadata = {
   title: "Flixx Movie App | Home",
@@ -10,7 +11,10 @@ const MainLayout = ({ children }) => {
   return (
     <html lang="en">
       <body>
-        <>{children}</>
+        <>
+          <Navbar />
+          {children}
+        </>
       </body>
     </html>
   )

@@ -1,7 +1,9 @@
+import PopularMovies from "@/components/PopularMovies"
+
 const HomePage = () => {
   return (
     <div>
-      <h1>HomePage</h1>
+      <PopularMovies />
     </div>
   )
 }
